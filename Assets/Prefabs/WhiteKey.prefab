@@ -168,7 +168,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -179,7 +179,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 10
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -187,22 +187,34 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.07073322
+      time: 0.1
       value: 1
-      inSlope: -3.5014045
-      outSlope: -3.5014045
+      inSlope: -10.0039835
+      outSlope: -10.0039835
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.12190467
-      value: 0.19737244
-      inSlope: -2.468689
-      outSlope: -2.468689
+      time: 0.14736862
+      value: 0.3770523
+      inSlope: -2.5009959
+      outSlope: -2.5009959
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.38110352
-      value: 0.019195557
-      inSlope: -0.2858281
-      outSlope: -0.2858281
+      time: 0.26841584
+      value: 0.14646912
+      inSlope: -0.62524897
+      outSlope: -0.62524897
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.78246766
+      value: 0.0667572
+      inSlope: -0.15631224
+      outSlope: -0.15631224
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0.1
+      inSlope: -0.10003988
+      outSlope: -0.10003988
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -879,7 +891,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 5
+    editorFlags: 1
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
